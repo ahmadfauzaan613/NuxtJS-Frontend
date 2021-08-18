@@ -1,0 +1,478 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+// Index
+.navmenu {
+  background-color: #024668;
+
+  .link {
+    p {
+      font-family: poppins;
+      font-size: 14px;
+      padding-top: 8px;
+      padding-right: 9px;
+    }
+  }
+}
+
+.slide {
+
+  h5 {
+    font-family: poppins;
+    font-size: 32px;
+    padding-bottom: 20px;
+    text-align: left
+  }
+}
+
+.category {
+  margin-top: 30px;
+
+  h1 {
+    font-family: poppins;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .cardcategory {
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    h3 {
+      font-family: poppins;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 15px;
+      color: #ffffff;
+    }
+  }
+}
+
+.artikel {
+  margin-top: 50px;
+
+  h1 {
+    font-family: poppins;
+    font-size: 28px;
+  }
+  p {
+      font-family: poppins;
+      font-size: 14px;
+  }
+
+  .cardNewArticle {
+    margin-top: 50px;
+
+     h1 {
+    font-family: poppins;
+    font-size: 28px;
+    color: black;
+
+    &:hover{
+      text-decoration: none;
+      color: #008dd3;
+    }
+  }
+  }
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #024668;
+
+  h5 {
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .logo {
+    width: 80px;
+    margin: 40px 0px 20px 0px;
+  }
+
+  .logo2 {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .logo3 {
+    margin: 20px 0px 20px 00px;
+  }
+
+  p {
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .lokasi {
+    h1 {
+      color: white;
+      font-family: poppins;
+      font-size: 18px;
+      text-align: left;
+      margin: 40px 0px 20px 0px;
+    }
+
+    h3 {
+      color: white;
+      font-family: poppins;
+      font-size: 16px;
+      text-align: left;
+      margin: 10px 0px 5px 0px;
+    }
+
+    h5 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      font-weight: 200;
+      text-align: left;
+    }
+
+
+  }
+
+  .kontak {
+    h1 {
+      color: white;
+      font-family: poppins;
+      font-size: 18px;
+      text-align: left;
+      margin: 40px 0px 20px 0px;
+    }
+
+    h3 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      text-align: left;
+      margin: 10px 0px 5px 0px;
+    }
+
+    h5 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      font-weight: 200;
+      text-align: left;
+    }
+  }
+
+  .logososial {
+    margin-top: 80px;
+  }
+
+  hr {
+    border: 0.2px solid rgb(255, 255, 255);
+  }
+}
+// Artikel
+
+// Artikel
+
+@media (max-width: 575.98px) {
+  .slide {
+    h5 {
+      font-family: poppins;
+      font-size: 12px;
+      text-align: center
+    }
+  }
+
+  .category {
+  margin-top: 30px;
+
+  h1 {
+    font-family: poppins;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .cardcategory {
+    padding-bottom: 15px;
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    h3 {
+      font-family: poppins;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 15px;
+      color: #ffffff;
+    }
+  }
+}
+
+.artikel {
+  margin-top: 30px;
+
+  h1 {
+    margin-top: 15px;
+    font-family: poppins;
+    font-size: 18px;
+  }
+
+   p {
+      font-family: poppins;
+      font-size: 12px;
+  }
+
+  .cardNewArticle {
+    margin-top: 20px;
+  }
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #024668;
+
+  h5 {
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .logo {
+    width: 80px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .logo2 {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .logo3 {
+    margin: 10px 0px 20px 00px;
+  }
+
+  p {
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .lokasi {
+    h1 {
+      color: white;
+      font-family: poppins;
+      font-size: 18px;
+      text-align: left;
+      margin: 5px 0px 20px 0px;
+    }
+
+    h3 {
+      color: white;
+      font-family: poppins;
+      font-size: 16px;
+      text-align: left;
+      margin: 10px 0px 5px 0px;
+    }
+
+    h5 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      font-weight: 200;
+      text-align: left;
+    }
+
+
+  }
+
+  .kontak {
+    h1 {
+      color: white;
+      font-family: poppins;
+      font-size: 18px;
+      text-align: left;
+      margin: 20px 0px 10px 0px;
+    }
+
+    h3 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      text-align: left;
+      margin: 15px 0px 5px 0px;
+    }
+
+    h5 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      font-weight: 200;
+      text-align: left;
+    }
+  }
+
+  .logososial{
+    width: 35px;
+    margin-top:38px;
+  }
+
+  hr {
+    border: 0.2px solid rgb(255, 255, 255);
+  }
+}
+}
+
+@media (max-width: 991.98px) {
+  .slide {
+    h5 {
+      font-family: poppins;
+      font-size: 20px;
+      text-align: center
+    }
+  }
+
+  .category {
+  margin-top: 30px;
+
+  h1 {
+    font-family: poppins;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .cardcategory {
+    padding-bottom: 15px;
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    h3 {
+      font-family: poppins;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 15px;
+      color: #ffffff;
+    }
+  }
+}
+
+.artikel {
+  margin-top: 30px;
+
+  h1 {
+    margin-top: 15px;
+    font-family: poppins;
+    font-size: 18px;
+  }
+
+   p {
+      font-family: poppins;
+      font-size: 12px;
+  }
+
+  .cardNewArticle {
+    margin-top: 20px;
+  }
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #024668;
+
+  h5 {
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .logo {
+    width: 80px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .logo2 {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .logo3 {
+    margin: 10px 0px 20px 00px;
+  }
+
+  p {
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .lokasi {
+    h1 {
+      color: white;
+      font-family: poppins;
+      font-size: 18px;
+      text-align: left;
+      margin: 5px 0px 20px 0px;
+    }
+
+    h3 {
+      color: white;
+      font-family: poppins;
+      font-size: 16px;
+      text-align: left;
+      margin: 10px 0px 5px 0px;
+    }
+
+    h5 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      font-weight: 200;
+      text-align: left;
+    }
+
+
+  }
+
+  .kontak {
+    h1 {
+      color: white;
+      font-family: poppins;
+      font-size: 18px;
+      text-align: left;
+      margin: 20px 0px 10px 0px;
+    }
+
+    h3 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      text-align: left;
+      margin: 15px 0px 5px 0px;
+    }
+
+    h5 {
+      color: white;
+      font-family: poppins;
+      font-size: 14px;
+      font-weight: 200;
+      text-align: left;
+    }
+  }
+
+  .logososial{
+    width: 35px;
+    margin-top:38px;
+  }
+
+  hr {
+    border: 0.2px solid rgb(255, 255, 255);
+  }
+}
+}
